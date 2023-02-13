@@ -1,25 +1,13 @@
 <template>
   <nav-bar></nav-bar>
-  <div>
-    <div>
-        <h1>What is Autism?</h1>
-    </div>
-    <div>
-        <h1>Categories Of Autism</h1>
-    </div>
-    <div>
-        <h1>Causes of Autism</h1>
-    </div>
-    <div>
-        <h1>Food Recomendations</h1>
-    </div>
-  </div>
+  <my-blogs></my-blogs>
 </template>
 
 <script>
-import navBar from '@/components/navBar.vue'
+import navBar from '@/components/navBar.vue';
+import MyBlogs from '@/components/MyBlogs.vue'
 export default {
-  components: { navBar },
+  components: { navBar,MyBlogs},
 
 }
 </script>

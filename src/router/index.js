@@ -2,17 +2,34 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/Home/HomeView.vue'
 import AboutView from '../views/Home/AboutView.vue'
 import ContactusView from '../views/Home/ContactusView.vue'
-import SigninView from '../views/Communication/Auth/SigninView.vue'
-import CreateAccount from '../views/Communication/Auth/CreateAccount.vue'
-import HomeLayout from '../layouts/HomeLayout.vue'
-import CommunicationLayout from '../layouts/CommunicationLayout.vue'
 import SwiperView from '../components/SwiperView.vue'
 import AwarenessView from '../views/Awareness/AwarenessView.vue'
+import AwarenessDetails from '../views/Awareness/AwarenessDetails.vue'
 import TermsofUse from '../views/Home/TermsofUse.vue'
 import PrivacyPolicy from '../views/Home/PrivacyPolicy.vue'
+import SigninView from '../views/Communication/Auth/SigninView.vue'
+import CreateAccount from '../views/Communication/Auth/CreateAccount.vue'
+import ChildInfo from '../views/Communication/Auth/ChildInfo.vue'
+import ParentsInfo from '../views/Communication/Auth/ParentsInfo.vue'
+import HealthProfessional from '../views/Communication/Auth/HealthProfessional.vue'
+import OrganizationInfo from '../views/Communication/Auth/OrganizationInfo.vue'
+import ForgotPassword from '../views/Communication/Auth/ForgotPassword.vue'
+import HomeLayout from '../layouts/HomeLayout.vue'
+import LoginAdmin from '../views/Admin/LoginAdmin.vue'
+import AdminDashboard from '../views/Admin/AdminDashboard.vue'
+import Sidebar from '../components/Sidebar.vue'
+import SystemUpdate from '../views/Admin/System/SystemUpdate.vue'
+import Moderator from '../views/Admin/Moderator.vue'
+import UserList from '../views/Admin/UserList.vue'
+import Verification from '../views/Admin/Verification.vue'
+import Report from '../views/Admin/Report/Report.vue'
+import ReportDetails from '../views/Admin/Report/ReportDetails.vue'
+import CreateSystem from '../views/Admin/System/CreateSystem.vue'
+
 
 
 const routes = [
+  //Home pages
   {
     path: '/',
     redirect:'/home',
@@ -26,11 +43,28 @@ const routes = [
      
     ]
   },
+  //Awareness pages
   {
   path:'/awareness',
   name:'awareness',
   component:AwarenessView
 },
+{
+  path:'/awarenessdetails',
+  name:'awarenessdetails',
+  component:AwarenessDetails
+},
+{
+  path:'/privacypolicy',
+  name:'privacypolicy',
+  component:PrivacyPolicy
+},
+{
+  path:'/termsofuse',
+  name:'termsofuse',
+  component:TermsofUse
+},
+//Auth pages
   {
   path:'/signin',
   name:'signin',
@@ -42,15 +76,81 @@ const routes = [
     component:CreateAccount
   },
   {
-    path:'/privacypolicy',
-    name:'privacypolicy',
-    component:PrivacyPolicy
+    path:'/childinfo',
+    name:'childinfo',
+    component:ChildInfo
   },
   {
-    path:'/termsofuse',
-    name:'termsofuse',
-    component:TermsofUse
-  }
+    path:'/parentsinfo',
+    name:'parentsinfo',
+    component:ParentsInfo
+  },
+  {
+    path:'/healthprofessional',
+    name:'healthprofessional',
+    component:HealthProfessional
+  },
+  {
+    path:'/organizationinfo',
+    name:'organizationinfo',
+    component:OrganizationInfo
+  },
+  {
+    path:'/forgotpassword',
+    name:'forgotpassword',
+    component:ForgotPassword
+  },
+  //Admin pages
+  {
+    path:'/loginadmin',
+    name:'loginadmin',
+    component:LoginAdmin
+  },
+  {
+    path:'/admindashboard',
+    name:'admindashboard',
+    component:AdminDashboard
+  },
+  {
+    path:'/sidebar',
+    name:'sidebar',
+    component:Sidebar
+  },
+  {
+    path:'/systemupdate',
+    name:'systemupdate',
+    component:SystemUpdate
+  },
+  {
+    path:'/moderator',
+    name:'moderator',
+    component:Moderator
+  },
+  {
+    path:'/userlist',
+    name:'userlist',
+    component:UserList
+  },
+  {
+    path:'/verification',
+    name:'verification',
+    component:Verification
+  },
+  {
+    path:'/report',
+    name:'report',
+    component:Report
+  },
+  {
+    path:'/reportdetails',
+    name:'reportdetails',
+    component:ReportDetails
+  },
+  {
+    path:'/createsystem',
+    name:'createsystem',
+    component:CreateSystem
+  },
 ]
 
 const router = createRouter({

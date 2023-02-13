@@ -1,11 +1,10 @@
 <template>
-<div class="overflow-y-auto">
-<nav-bar></nav-bar>
-<swiper-view></swiper-view>
-<about-view></about-view>
-<ContactusView></ContactusView>
-<my-footer></my-footer>
-</div>
+
+    <nav-bar></nav-bar>
+    <swiper-view></swiper-view>
+    <about-view></about-view>
+    <contactus-view></contactus-view>
+    <my-footer></my-footer>
 </template>
   
   <script>

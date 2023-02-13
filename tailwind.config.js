@@ -10,7 +10,10 @@ module.exports = {
           'large': '12px',
       },
       colors:{
-          primary:'#199CC5'
+          primary:'#199CC5',
+          secondary:'#1d91b5',
+          tertiary:'#26465E',
+          fourth:'#DC143C'
       },
   },
   },

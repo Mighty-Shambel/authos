@@ -1,10 +1,10 @@
 <template>
-     <footer class="sticky bottom-0 z-30">
+     <footer class="bottom-0 z-30">
       <div class=" bg-slate-100 text-black">
          <div class="pl-16 pt-1 pb-1 mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                <div class="lg:pl-4">
-               <strong class="text-xl pb-3 font-semibold">Autos</strong><br>
+                  <strong class="text-xl font-semibold">Autos</strong><br>
              <p class="">is a platform specifically built for <br>autism community 
                to create awareness <br>and make communication easier.<br>
                <strong>Phone:</strong>+251-995-744-599<br>

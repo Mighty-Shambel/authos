@@ -1,6 +1,5 @@
 <template>
    <swiper
-   class=""
    :module="modules"
    :space-between="20"
    :loop="true"
@@ -10,14 +9,13 @@
     disableOnInteraction:false,
     pauseOnMouseEnter:true
    }"
-   
    >
    <swiper-slide v-for="text in swiperTextBase" :key="text.description" class="flex">
-    <div class=" ml-20 w-96 mt-40">
+    <div class=" ml-20 w-96 mt-36 ">
     <font-awesome-icon icon="fa-sharp fa-solid fa-chevron-left" />
     <h1 class=" flex justify center text-xl text-semibold text-primary pb-3 font-bold">{{ text.name }}</h1>
     <p class="mb-5">{{ text.description }}</p>
-    <button class="bg-primary px-12 py-1 text-white rounded md ">Sign in</button>
+    <button class="bg-primary px-12 py-1 text-white rounded md "><router-link :to="{name:'signin'}">Sign in</router-link></button>
     </div>
     <img :src="text.img" alt="autism" class=" h-[60vh] ml-56">
    </swiper-slide>
