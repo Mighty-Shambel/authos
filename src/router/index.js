@@ -25,7 +25,9 @@ import Verification from '../views/Admin/Verification.vue'
 import Report from '../views/Admin/Report/Report.vue'
 import ReportDetails from '../views/Admin/Report/ReportDetails.vue'
 import CreateSystem from '../views/Admin/System/CreateSystem.vue'
-
+import ConfirmModerator from '../views/Admin/ConfirmModerator.vue'
+import ModeratorInfo from '../views/Admin/ModeratorInfo.vue'
+import moderatorNavbar from '../components/moderatorNavbar.vue'
 
 
 const routes = [
@@ -151,6 +153,22 @@ const routes = [
     name:'createsystem',
     component:CreateSystem
   },
+  {
+    path:'/confirmmoderator',
+    name:'confirmmoderator',
+    component:ConfirmModerator
+    },
+    {
+      path:'/moderatorinfo',
+      name:'moderatorinfo',
+      component:ModeratorInfo
+      },
+      //moderator pages
+      {
+        path:'/moderatorNavBar',
+        name:'moderatorNavBar',
+        component:moderatorNavbar
+        },
 ]
 
 const router = createRouter({

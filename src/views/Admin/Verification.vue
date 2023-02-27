@@ -1,5 +1,5 @@
 <template>
-  <sidebar>
+  <moderator-navbar>
      <div class="grid-cols-1 md:grid-cols-1 lg:grid-cols-1 p-20  mr-48 pr-96 pt-10">
 <div class="py-5 px-3"> 
   <div class="flex pb-5 shadow md pl-10 pt-5 mb-10"> 
@@ -106,11 +106,11 @@ v-if="contactModal">
   </div>
   
     </div>
-  </sidebar>
+  </moderator-navbar>
 </template>
 
 <script>
-import Sidebar from '@/components/Sidebar.vue'
+import moderatorNavbar from '@/components/moderatorNavbar.vue'
 export default {
   data(){
 return{
@@ -119,7 +119,7 @@ return{
   contactModal:false
 }
   },
-  components: { Sidebar },
+  components: { moderatorNavbar },
 
 }
 </script>
