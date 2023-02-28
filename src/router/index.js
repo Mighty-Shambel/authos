@@ -21,13 +21,24 @@ import Sidebar from '../components/Sidebar.vue'
 import SystemUpdate from '../views/Admin/System/SystemUpdate.vue'
 import Moderator from '../views/Admin/Moderator.vue'
 import UserList from '../views/Admin/UserList.vue'
-import Verification from '../views/Admin/Verification.vue'
-import Report from '../views/Admin/Report/Report.vue'
-import ReportDetails from '../views/Admin/Report/ReportDetails.vue'
+import Verification from '../views/Moderator/Verification.vue'
+import Report from '../views/Moderator/Report/Report.vue'
+import ReportDetails from '../views/Moderator/Report/ReportDetails.vue'
+import ReportAdmin from '../views/Admin/Report/ReportAdmin.vue'
+import ReportDetailsAdmin from '../views/Admin/Report/ReportDetailsAdmin.vue'
 import CreateSystem from '../views/Admin/System/CreateSystem.vue'
 import ConfirmModerator from '../views/Admin/ConfirmModerator.vue'
 import ModeratorInfo from '../views/Admin/ModeratorInfo.vue'
 import moderatorNavbar from '../components/moderatorNavbar.vue'
+import VerificationAdmin from '../views/Admin/VerificationAdmin'
+import CreateCategories from '../views/Admin/System/CreateCategories.vue'
+import CreateCauses from '../views/Admin/System/CreateCauses.vue'
+import CreateDocRec from '../views/Admin/System/CreateDocRec.vue'
+import CreateFoodRec from '../views/Admin/System/CreateFoodRec.vue'
+import CreateNotRec from '../views/Admin/System/CreateNotRec.vue'
+import CreateOrgRec from '../views/Admin/System/CreateOrgRec.vue'
+import CreateSymptom from '../views/Admin/System/CreateSymptom.vue'
+
 
 
 const routes = [
@@ -139,20 +150,56 @@ const routes = [
     component:Verification
   },
   {
-    path:'/report',
-    name:'report',
-    component:Report
+    path:'/reportAdmin',
+    name:'reportAdmin',
+    component:ReportAdmin
   },
   {
-    path:'/reportdetails',
-    name:'reportdetails',
-    component:ReportDetails
+    path:'/reportdetailsAdmin',
+    name:'reportdetailsAdmin',
+    component:ReportDetailsAdmin
   },
   {
     path:'/createsystem',
     name:'createsystem',
     component:CreateSystem
   },
+  {
+    path:'/createcategories',
+    name:'createcategories',
+    component:CreateCategories
+  },
+  {
+    path:'/createcauses',
+    name:'createcauses',
+    component:CreateCauses
+  },
+  {
+    path:'/createdocrec',
+    name:'createdocrec',
+    component:CreateDocRec
+  },
+  {
+    path:'/createfoodrec',
+    name:'createfoodrec',
+    component:CreateFoodRec
+  },
+  {
+    path:'/createnotrec',
+    name:'createnotrec',
+    component:CreateNotRec
+  },
+  {
+    path:'/createorgrec',
+    name:'createorgrec',
+    component:CreateOrgRec
+  },
+  {
+    path:'/createsymptom',
+    name:'createsymptom',
+    component:CreateSymptom
+  },
+ 
   {
     path:'/confirmmoderator',
     name:'confirmmoderator',
@@ -163,11 +210,27 @@ const routes = [
       name:'moderatorinfo',
       component:ModeratorInfo
       },
+      {
+        path:'/verificationAdmin',
+        name:'verificationAdmin',
+        component:VerificationAdmin
+      },
+
       //moderator pages
       {
         path:'/moderatorNavBar',
         name:'moderatorNavBar',
         component:moderatorNavbar
+        },
+        {
+          path:'/report',
+          name:'report',
+          component:Report
+        },
+        {
+          path:'/reportdetails',
+          name:'reportdetails',
+          component:ReportDetails
         },
 ]
 

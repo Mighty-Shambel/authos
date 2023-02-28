@@ -16,10 +16,6 @@
             <label for="lname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Last Name</label>
           <input id="lname" name="lname" type="text"  required class="relative block w-full appearance-none  rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="last name">
         </div>
-        <div class="pb-2" >
-            <label for="add" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Address</label>
-          <input id="add" name="add" type="text"  required class="relative block w-full appearance-none  rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm" placeholder="address">
-        </div>
         </div>
 
         <div class="flex justify-start">

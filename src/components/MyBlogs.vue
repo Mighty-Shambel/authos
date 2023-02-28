@@ -42,7 +42,12 @@
      <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessdetails'}">Read more</router-link></p>
 </div>
 <div class="shadow md hover:border-2"><img src="@/assets/food.jpeg" class="rounded-lg right-0 w-full pb-3  ">
-  <h1 class="text-xl font-semibold pb-2 pl-5">Food Recomendations</h1>
+  <h1 class="text-xl font-semibold pb-2 pl-5">Recomended Foods</h1>
+  <p class="text-slate-500 pl-5 pb-3">A healthy diet for people with autism means eating whole foods such as...</p>
+     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessdetails'}">Read more</router-link></p>
+</div>
+<div class="shadow md hover:border-2"><img src="@/assets/food.jpeg" class="rounded-lg right-0 w-full pb-3  ">
+  <h1 class="text-xl font-semibold pb-2 pl-5"> Not Recomended Foods</h1>
   <p class="text-slate-500 pl-5 pb-3">A healthy diet for people with autism means eating whole foods such as...</p>
      <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessdetails'}">Read more</router-link></p>
 </div>
