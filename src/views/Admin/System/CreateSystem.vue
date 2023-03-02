@@ -26,7 +26,7 @@
             <textarea id="desc" rows="4"  class="w-full bg-gray-50 p-2.5 text-sm rounded-lg  border border-gray-300" placeholder="Description..."></textarea>
           </div>
           <div class="pb-2">
-            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="file_input">Cover pic</label>
+            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="file_input">Cover Image</label>
         <input class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" aria-describedby="file_input_help" id="file_input" type="file">
         </div>
         </div>

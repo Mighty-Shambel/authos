@@ -38,6 +38,8 @@ import CreateFoodRec from '../views/Admin/System/CreateFoodRec.vue'
 import CreateNotRec from '../views/Admin/System/CreateNotRec.vue'
 import CreateOrgRec from '../views/Admin/System/CreateOrgRec.vue'
 import CreateSymptom from '../views/Admin/System/CreateSymptom.vue'
+import EditAdmin from '../views/Admin/EditAdmin.vue'
+import EditModerator from '../views/Moderator/EditModerator.vue'
 
 
 
@@ -215,6 +217,11 @@ const routes = [
         name:'verificationAdmin',
         component:VerificationAdmin
       },
+      {
+        path:'/editadmin',
+        name:'editadmin',
+        component:EditAdmin
+      },
 
       //moderator pages
       {
@@ -232,6 +239,11 @@ const routes = [
           name:'reportdetails',
           component:ReportDetails
         },
+        {
+          path:'/editModerator',
+          name:'editModerator',
+          component:EditModerator
+          },
 ]
 
 const router = createRouter({
