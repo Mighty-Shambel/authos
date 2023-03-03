@@ -28,38 +28,38 @@
 <div class="shadow md hover:border-2"><img src="@/assets/symptom.jpg" class="rounded-lg right-0 w-full pb-3 ">
   <h1 class="text-xl font-semibold pb-2 pl-5">Symptoms of Autism</h1>
   <p class="text-slate-500 pl-5 pb-3">There are some signs of Autstic people avoiding eye contact....</p>
-     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessdetails'}">Read more</router-link></p>
+     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenesssymptom'}">Read more</router-link></p>
 </div>
 <div class="shadow md hover:border-2"><img src="@/assets/causes.jpeg" class="rounded-lg right-0 w-full pb-3  ">
   <h1 class="text-xl font-semibold pb-2 pl-5">Cause of Autism</h1>
   <p class="text-slate-500 pl-5 pb-3">Autism spectrum disorder has no single known cause. Given the complexity ...</p>
-     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessdetails'}">Read more</router-link></p>
+     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenesscauses'}">Read more</router-link></p>
 </div>
 
 <div class="shadow md hover:border-2"><img src="@/assets/categories.jpg" class="rounded-lg right-0 w-full pb-3  ">
   <h1 class="text-xl font-semibold pb-2 pl-5">Categories of autism</h1>
   <p class="text-slate-500 pl-5 pb-3">There are different types of autism, such as autistic disorder... </p>
-     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessdetails'}">Read more</router-link></p>
+     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenesscategories'}">Read more</router-link></p>
 </div>
 <div class="shadow md hover:border-2"><img src="@/assets/food.jpeg" class="rounded-lg right-0 w-full pb-3  ">
   <h1 class="text-xl font-semibold pb-2 pl-5">Recomended Foods</h1>
   <p class="text-slate-500 pl-5 pb-3">A healthy diet for people with autism means eating whole foods such as...</p>
-     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessdetails'}">Read more</router-link></p>
+     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessfood'}">Read more</router-link></p>
 </div>
-<div class="shadow md hover:border-2"><img src="@/assets/food.jpeg" class="rounded-lg right-0 w-full pb-3  ">
+<div class="shadow md hover:border-2"><img src="@/assets/sugar.jpeg" class="rounded-lg right-0 w-full pb-3  ">
   <h1 class="text-xl font-semibold pb-2 pl-5"> Not Recomended Foods</h1>
   <p class="text-slate-500 pl-5 pb-3">A healthy diet for people with autism means eating whole foods such as...</p>
-     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessdetails'}">Read more</router-link></p>
+     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessnotrec'}">Read more</router-link></p>
 </div>
 <div class="shadow md hover:border-2"><img src="@/assets/doctors.jpg" class="rounded-lg right-0 w-full pb-3  ">
   <h1 class="text-xl font-semibold pb-2 pl-5">Doctor Recomendations</h1>
   <p class="text-slate-500 pl-5 pb-3">There are some doctors currently working on autism in diffrent corner...</p>
-     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessdetails'}">Read more</router-link></p>
+     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessdoctor'}">Read more</router-link></p>
 </div>
 <div class="shadow md hover:border-2"><img src="@/assets/organization.jpg" class="rounded-lg right-0 w-full pb-3   ">
   <h1 class="text-xl font-semibold pb-2 pl-5">Organization Recomendations</h1>
   <p class="text-slate-500 pl-5 pb-3 pr-5">Autism Centers are mainly located in certain areas of the country Which are...</p>
-     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessdetails'}">Read more</router-link></p>
+     <p class="pl-5 pb-3 text-primary"><router-link :to="{name:'awarenessorgrec'}">Read more</router-link></p>
 </div>
 
   </div>

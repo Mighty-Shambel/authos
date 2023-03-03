@@ -37,7 +37,7 @@ v-if="detailsModal">
       <div class="pt-5 font-semibold flex">Reporter Name -<p class="font-normal pl-2">Meklit Seife</p></div>
       <div class="pt-5 font-semibold flex">Reported User -<p class="font-normal pl-2"> Mighty shambel</p></div>
       <div class="pt-5 font-semibold flex">Reason-<p class="font-normal pl-2">Unrelated Content</p></div>
-      <div class="flex justify-start py-5"><button  @click="detailsModal=false" class="px-5 border border-2 border-black  py-2 rounded-md bg-tertiary text-white">Cancel</button> </div>
+      <div class="flex justify-start py-5"><button  @click="detailsModal=false" class="px-5 border border-2 border-black  py-2 rounded-md bg-tertiary text-white">Cancel</button> <button  @click="detailsModal=false" class="px-5 border border-2 border-black  py-2 rounded-md bg-tertiary text-white">Block</button> </div>
      </div>
   </div>
 </div>

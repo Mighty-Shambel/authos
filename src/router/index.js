@@ -5,6 +5,13 @@ import ContactusView from '../views/Home/ContactusView.vue'
 import SwiperView from '../components/SwiperView.vue'
 import AwarenessView from '../views/Awareness/AwarenessView.vue'
 import AwarenessDetails from '../views/Awareness/AwarenessDetails.vue'
+import AwarenessCategories from '../views/Awareness/AwarenessCategories.vue'
+import AwarenessCauses from '../views/Awareness/AwarenessCauses.vue'
+import AwarenessDoctor from '../views/Awareness/AwarenessDoctor.vue'
+import AwarenessFood from '../views/Awareness/AwarenessFood.vue'
+import AwarenessNotRec from '../views/Awareness/AwarenessNotRec.vue'
+import AwarenessOrgRec from '../views/Awareness/AwarenessOrgRec.vue'
+import AwarenessSymptom from '../views/Awareness/AwarenessSymptom.vue'
 import TermsofUse from '../views/Home/TermsofUse.vue'
 import PrivacyPolicy from '../views/Home/PrivacyPolicy.vue'
 import SigninView from '../views/Communication/Auth/SigninView.vue'
@@ -68,6 +75,41 @@ const routes = [
   path:'/awarenessdetails',
   name:'awarenessdetails',
   component:AwarenessDetails
+},
+{
+  path:'/awarenesssymptom',
+  name:'awarenesssymptom',
+  component:AwarenessSymptom
+},
+{
+  path:'/awarenesscauses',
+  name:'awarenesscauses',
+  component:AwarenessCauses
+},
+{
+  path:'/awarenesscategories',
+  name:'awarenesscategories',
+  component:AwarenessCategories
+},
+{
+  path:'/awarenessdoctor',
+  name:'awarenessdoctor',
+  component:AwarenessDoctor
+},
+{
+  path:'/awarenessfood',
+  name:'awarenessfood',
+  component:AwarenessFood
+},
+{
+  path:'/awarenessnotrec',
+  name:'awarenessnotrec',
+  component:AwarenessNotRec
+},
+{
+  path:'/awarenessorgrec',
+  name:'awarenessorgrec',
+  component:AwarenessOrgRec
 },
 {
   path:'/privacypolicy',

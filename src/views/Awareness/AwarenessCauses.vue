@@ -5,13 +5,14 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-10 rounded-lg p-10 pt-5">
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-grid-cols-2 pt-12">
   <div>
-    <img src="@/assets/auth.webp" class="pt-24">
+    <img src="@/assets/causes.jpeg" class="pt-24">
   </div>
   <div class ="pt-8 pl-10">
-    <h1 class="text-xl font-semibold pb-2 ">What is Autism ?</h1>
-  <p class="text-black">Autism is also known as Autism Spectrum <br>Disorder (ASD). ‘Spectrum’
-     refers to Autism is also known as Autism Spectrum Disorder (ASD). ‘Spectrum’ refers to the wide range of characteristics, skills and abilities that different people with Autism have. No two people are affected by Autism in exactly the same way. Every person experiences Autism differently and has different support needs. Although the core characteristics of Autism can cause a range of challenges, it is important to recognise that they can also result in unique skills and capabilities.
-     While Autism is a life-long condition, with appropriate and tailored support, children and Adults with Autism can make significant progress and live fulfilling lives. Consequently, it is imperative that people with Autism have access to specialist services that understand their needs and are experienced in developing their skills and strengths. </p>
+    <h1 class="text-xl font-semibold pb-2 ">Causes of Autism ?</h1>
+  <p class="text-black">
+   1. Genetics. Several different genes appear to be involved in autism spectrum disorder. For some children, autism spectrum disorder can be associated with a genetic disorder, such as Rett syndrome or fragile X syndrome. For other children, genetic changes (mutations) may increase the risk of autism spectrum disorder. Still other genes may affect brain development or the way that brain cells communicate, or they may determine the severity of symptoms. Some genetic mutations seem to be inherited, while others occur spontaneously.<br><br>
+    2.Environmental factors. Researchers are currently exploring whether factors such as viral infections, medications or complications during pregnancy, or air pollutants play a role in triggering autism spectrum disorder.
+  </p>
   </div>
 </div>
   </div>
@@ -22,7 +23,7 @@
         <img src="@/assets/auth.webp" class="rounded-md">
       </div>
     <div class="pt-2 pr-2">
-      <h1 class=" pl-5"><router-link :to="{name:'awarenessdetails'}">What is autism</router-link></h1>
+      <h1 class=" pl-5">What is Autism </h1>
     <p class="text-slate-500 pl-5">Autism is also known as Autism Spectrum Disorder (ASD) </p>
     </div>
     </div>
@@ -31,7 +32,7 @@
         <img src="@/assets/symptom.jpg" class="rounded-md">
       </div>
     <div class="pt-2 pr-2">
-      <h1 class="pl-5"><router-link :to="{name:'awarenesssymptom'}">Symptom of autism</router-link></h1>
+      <h1 class="pl-5">Symptoms of Autism</h1>
     <p class="text-slate-500 pl-5">There are some signs of Autstic people avoiding eye contact....</p>
     </div>
     </div>
@@ -40,7 +41,7 @@
         <img src="@/assets/causes.jpeg" class=" rounded-md">
       </div>
     <div class="pt-2 pr-2">
-      <h1 class="pl-5"><router-link :to="{name:'awarenesscauses'}">Causes of autism</router-link></h1>
+      <h1 class="pl-5">Causes of Autism</h1>
     <p class="text-slate-500 pl-5">There are some signs of Autstic people avoiding eye contact....</p>
     </div>
     </div>
@@ -49,7 +50,7 @@
         <img src="@/assets/categories.jpg" class="rounded-md">
       </div>
     <div class="pt-2 pr-2">
-      <h1 class=" pl-5"><router-link :to="{name:'awarenesscategories'}">Categories of autism</router-link> </h1>
+      <h1 class=" pl-5">Categories of Autism </h1>
     <p class="text-slate-500 pl-5">There are different types of autism, such as autistic disorder</p>
     </div>
     </div>
@@ -59,7 +60,7 @@
         <img src="@/assets/food.jpeg" class="rounded-md">
       </div>
     <div class="pt-2 pr-2">
-      <h1 class="  pl-5"><router-link :to="{name:'awarenessfood'}">Food Recomendations</router-link></h1>
+      <h1 class="  pl-5">Food Recomendations</h1>
     <p class="text-slate-500 pl-5">A healthy diet for people with autism means eating whole...</p>
     </div>
     </div>
@@ -68,7 +69,7 @@
         <img src="@/assets/doctors.jpg" class="rounded-md">
       </div>
     <div class="pt-2 pr-2">
-      <h1 class="  pl-5"><router-link :to="{name:'awarenessdoctor'}">Doctor Recomendations</router-link></h1>
+      <h1 class="  pl-5">Doctor Recomendations</h1>
     <p class="text-slate-500 pl-5">There are some doctors currently working on autism in diffrent corner</p>
     </div>
     </div>
@@ -77,7 +78,7 @@
         <img src="@/assets/organization.jpg" class="rounded-md">
       </div>
     <div class="pt-2 pr-2">
-      <h1 class="  pl-5"><router-link :to="{name:'awarenessorgrec'}">Organization Recomendations</router-link></h1>
+      <h1 class="  pl-5">Organization Recomendations</h1>
     <p class="text-slate-500 pl-5">Autism Centers are mainly located in certain areas</p>
     </div>
     </div>
