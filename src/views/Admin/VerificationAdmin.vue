@@ -82,7 +82,7 @@ v-if="verifyModal">
         <span class="">Health professional</span>
       </p>
     </div></div>
-      <div  class="flex justify-start py-5"><button  @click="verifyModal=false" class="px-8 border border-2 border-black  py-2 rounded-md bg-tertiary text-white">Verify</button><button  @click="verifyModal=false" class=" ml-5 px-8  py-2 rounded-md bg-fourth text-white">Delete</button><button  @click="contactModal=!contactModal"  class=" ml-5 px-8  py-2 rounded-md border border-2 border-tertiary">Contact</button> </div>
+      <div  class="flex justify-start py-5"><button  @click="verifyModal=false" class="px-8 border border-2 border-black  py-2 rounded-md bg-tertiary text-white">Verify</button><button  @click="verifyModal=false" class=" ml-5 px-8  py-2 rounded-md bg-fourth text-white">Delete</button><button  @click="contactModal=!contactModal"  class=" ml-5 px-8  py-2 rounded-md border border-2 border-tertiary">Contact</button><button   @click="verifyModal=false" class=" ml-5 px-8  py-2 rounded-md border border-2 border-tertiary">Cancel</button> </div>
      </div>
   </div>
 </div>
